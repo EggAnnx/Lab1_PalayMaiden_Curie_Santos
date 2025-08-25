@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab1_PalayMaiden_Curie_Santos</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: "Georgia", serif;
+      background-color: #f3e5d7;
+    }
+
+    /* Navigation bar styling */
+    nav {
+      background-color:#93ae88;
+      padding: 10px 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-start;
+      margin-left: -25px;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color:#ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      font-size: 23px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #617857;
+      border-radius: 5px;
+    }
+
+/*IMAGE AND TEXT HEREEE*/
+/* Flex container for image + text */
+.text-above-image {
+  text-align: center;  /* centers the text above the image */
+  max-width: 100%;
+  padding-top: 10px;
+  padding-bottom: 0;
+  color: #617857;
+}
+
+.text-above-image h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.image-text-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 30px;     /* space above the content */
+  padding-right: 20px;   /* space to the right of the content */
+  padding-bottom: 0px;  /* space below the content */
+  padding-left: 20px;    /* space to the left of the content */
+  flex-wrap: wrap;
+}
+
+.image-text-flex img {
+  width: 450px;
+  height: auto;   /* adjust size */
+  display: block;  
+  margin: 0;       
+}
+
+.text-block {
+    line-height: 1.7;           /* more breathing room for desktop */
+    font-size: 16px;
+    max-width: 1000px;
+    text-align: justify;
+        text-justify: inter-word;
+                   /* keeps it narrow next to image */
+}
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 900px) {
+      .image-text-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 30px 10px 0 10px;  
+      }
+
+      .image-text-flex img {
+        width: 90%;
+        height: auto;
+      }
+
+    .text-block{
+        max-width: 90%;         /* make it narrower than full width */
+        font-size: 15px;        /* slightly smaller on medium screens */
+        line-height: 1.5;
+        text-align: justify;
+        text-justify: inter-word;
+         
+    }
+
+}
+
+    @media screen and (max-width: 600px) {
+      .text-above-image h2 {
+        font-size: 30px;
+      }
+        .text-block{
+        max-width: 95%;         /* nearly full width for small screens */
+        font-size: 14px;        /* smaller font for mobile */
+        line-height: 1.4;       /* tighter line spacing for small screens */
+        padding: 0 10px;        /* small padding from edges */
+        text-align: justify;
+        text-justify: inter-word;
+        margin-bottom: 40px;
+    }
+
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation bar comes first -->
+  <nav>
+    <ul>
+      <li><a href="Poem.html">Poem</a></li>
+      <li><a href="ArtistStatement.html">Artist Statement</a></li>
+    </ul>
+  </nav>
+<div class="text-above-image">
+      <h2>Artist Statement</h2>
+</div>
+
+<div class="image-text-flex">
+  <img src="palay maiden.jpg" alt="Palay Maiden">
+  <div class="text-block">
+    <p>Palay Maiden by Fernando Amorsolo portrays a beautiful Filipino woman in the rice fields holding a newly harvested rice in her arms. Unlike the conventional or Western definition of beauty, Amorsolo displayed the physical features typically found in Filipino women, celebrating natural beauty and conveying a sense of pride in Filipino heritage.</p>
+
+    <p>For my project, I decided to create a poem, Sa Butil ng Palay. My poem draws inspiration from Amorsolo’s work, which explores Filipina beauty and heritage in a more physical sense,  and shifts to a more modern perspective.</p>
+
+    <p>During a time when some Filipinos may compare themselves to images they see on the internet, often portraying Western standards of beauty, Filipinos often forget the unique and natural beauty they possess. Beauty is, of course, something subjective, and everyone sees beauty differently. All Filipinos are different as well, with everyone having different features. But just because we don’t have the same features, it doesn’t make us less of a Filipino.</p>
+
+    <p>My poem focuses on inner beauty by celebrating one’s identity and heritage. It reminds us to honor those before us and be thankful for their sacrifices. We should be proud of our roots, and this poem can hopefully encourage others to be kind to those around them and themselves. I hope to affirm fellow Filipinos that they are strong, resilient, and just as beautiful as anyone else.</p>
+   
+    <p>I am able to share this poem through a manually coded website through HTML and CSS. I wanted to have a modern take on a classic painting, and what’s more modern than something digital? So, for my second element of contemporary art, I decided to make use of technology. By bringing my poem online, I was able to combine traditional themes of heritage and beauty with modern issues.</p>
+
+    <p>Through this, I hope my poem reaches others, where, despite being ironically in a space where comparison often happens, it offers a moment of reflection, encouragement, and a reminder of how beautiful one truly is.</p>
+  </div>
+</div>
+
+</body>
+</html>

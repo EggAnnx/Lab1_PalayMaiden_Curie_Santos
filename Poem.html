@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab1_PalayMaiden_Curie_Santos</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: "Georgia", serif;
+      background-color: #f3e5d7;
+    }
+
+    /* Navigation bar styling */
+    nav {
+      background-color:#93ae88;
+      padding: 10px 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-start;
+      margin-left: -25px;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color:#ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      font-size: 23px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #617857;
+      border-radius: 5px;
+    }
+
+    /* Title styling */
+    .title {
+    font-family: "Georgia", serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+
+    .title h1 {
+      font-size: 45px;
+      margin: 0;
+        padding: 0;
+      color: #617857;
+    }
+
+    .title h2 {
+      font-size: 24px;
+      margin: 0;
+      padding: 0;
+      font-weight: normal;
+      color: #617857;
+    }
+    .poem {
+      max-width: 500px;      
+      margin: 0 auto 150px auto;  /* centers horizontally, keeps bottom spacing */
+    padding-bottom: 15px; /* add space below the poem */
+    }
+
+    .poem p {
+      font-size: 16px;
+      line-height: 1.6;
+      text-align: left;
+      color: #000000;
+      white-space: pre-line; /* preserves line breaks */
+      margin: 0 20px 20px 80px;    /* spacing between stanzas */
+      width: 100%;           /* uses full width of .poem container */
+    }
+
+
+    /* Responsive adjustments */
+ @media screen and (max-width: 900px) {
+      .image-text-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 30px 10px;
+      }
+      .image-text-flex img { width: 90%; height: auto; }
+      .text-block { max-width: 90%; }
+    }
+
+    @media screen and (max-width: 600px) {
+      .title h1 { font-size: 35px; }
+      .title h2 { font-size: 20px; }
+      .text-above-image h2 { font-size: 30px; }
+      .poem { margin: 0 auto 50px auto; }
+      .poem p {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation bar comes first -->
+  <nav>
+    <ul>
+      <li><a href="Poem.html">Poem</a></li>
+      <li><a href="ArtistStatement.html">Artist Statement</a></li>
+    </ul>
+  </nav>
+  <div class="title">
+    <h1>Sa Butil ng Palay</h1>
+    <h2>by Sam Santos</h2>
+  </div>
+    <div class="poem">
+    <p>
+    Sa aking balat at buhok
+    nakaukit ang init ng araw at tibay ng lupa.
+    Dito nakatala ang kwento ng mga sakripisyo
+    at pagmamahal ng mga nagdaan.
+
+    Sa aking puso at mata
+    nakikita ko ang aking sarili sa salamin.
+    Malakas, matatag, at bitbit ang pangako
+    na patuloy na magbibigay-buhay sa bukas.
+
+    Sa bawat butil ng palay na itinanim,
+    nararamdaman ang sakripisyo ng mga nauna.
+    Ang kanilang pagmamahal
+    na humubog sa aking pagkatao at kinabukasan.
+
+    Kaya bakit ko ipagpapalit kung ano ang akin?
+    Ang aking ganda ay pamana ng bayan,
+    ang aking pinagmulan.
+    Sa bawat araw, ibinabalik ko ang kabutihan
+    bilang tanda ng pasasalamat at pagkakaisa.
+
+    Sa bawat tingin sa paligid,
+    hindi ko kailangan sukatin ang sarili sa iba.
+    Ang aking halaga at ganda
+    ay hindi nasusukat sa mata ng mundo.
+
+    Kaya’t hindi ako anino.
+    Ako ang ugat na umuunlad sa sariling lupa.
+    Ako ang tibay at lakas ng dagat,
+    hindi natitinag ng hamon o bagyo.
+
+    Kaya ang aking ganda ay hindi hiram,
+    ang aking ganda ay sariling atin.
+    Ito ay handog ng nakaraan, buhay sa kasalukuyan,
+    at pag-asa sa hinaharap.
+    </p>
+    
+  </div>
+   </body>
+</html>
